@@ -1,5 +1,8 @@
 package Problema3;
 
+import lab8.PanelPrincipal;
+import lab8.Problema2.PanelPalindromos;
+
 import javax.swing.*;
 
 public class PanelProblema3 {
@@ -15,9 +18,13 @@ public class PanelProblema3 {
     private JLabel LBLplazoindicacion;
     private JTextField TXTplazo;
     private JButton BTNcalcular;
+    private JButton BTNsalida;
+    JFrame frame;
 
 
-    public PanelProblema3() {
+    public PanelProblema3(JFrame frame) {
+        this.frame = frame;
+
         BTNcalcular.addActionListener(e -> {
             try {
                 String nombre = TXTnombre.getText();
@@ -46,6 +53,15 @@ public class PanelProblema3 {
             }
 
         });
+
+
+        BTNsalida.addActionListener(e -> {
+            PanelPrincipal panelPrincipal = new PanelPrincipal(frame);
+            frame.setContentPane(panelPrincipal.getPanel());
+            frame.revalidate();
+            frame.repaint();
+        });
+
 
     }
     public JPanel getPanel1 () {
