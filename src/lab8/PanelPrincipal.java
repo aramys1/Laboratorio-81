@@ -11,7 +11,7 @@ public class PanelPrincipal {
 
     public PanelPrincipal(JFrame frame) {
         buttonProblema2.addActionListener(e -> {
-            PanelPalindromos panelPalindromos = new PanelPalindromos();
+            PanelPalindromos panelPalindromos = new PanelPalindromos(frame);
             frame.setContentPane(panelPalindromos.getPanel());
             frame.revalidate();
             frame.repaint();

@@ -1,5 +1,7 @@
 package lab8.Problema2;
 
+import lab8.PanelPrincipal;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -10,15 +12,19 @@ public class PanelPalindromos {
     private JButton buttonCalcular;
     private JLabel lbRespuesta;
     private JPanel PanelPrincipal;
+    private JButton volverAlMenuButton;
 
-    public PanelPalindromos() {
-        buttonCalcular.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                calcularPalindromos();
-            }
+    public PanelPalindromos(JFrame frame) {
+        buttonCalcular.addActionListener(e -> calcularPalindromos());
+
+        volverAlMenuButton.addActionListener(e -> {
+            PanelPrincipal panelPrincipal = new PanelPrincipal(frame);
+            frame.setContentPane(panelPrincipal.getPanel());
+            frame.revalidate();
+            frame.repaint();
         });
     }
+
 
     private void calcularPalindromos() {
         try {
