@@ -13,10 +13,10 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="p2"/>
+          <text value="Calcular palíndromos entre un rango de números"/>
         </properties>
       </component>
-      <component id="3df6e" class="javax.swing.JButton" binding="p1Button" default-binding="true">
+      <component id="3df6e" class="javax.swing.JButton" binding="buttonProblema1">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
