@@ -1,13 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Problema3.PanelProblema3">
-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="GridLayoutManager">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="80" bottom="10" right="80"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+      <xy x="203" y="111" width="855" height="491"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-1907218"/>
+      <enabled value="true"/>
+      <foreground color="-14496795"/>
+    </properties>
     <border type="none"/>
-    <children/>
+    <children>
+      <component id="52db0" class="javax.swing.JLabel" binding="LBLtitulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="48" style="1"/>
+          <foreground color="-15257582"/>
+          <text value="Plazo fijo"/>
+        </properties>
+      </component>
+      <component id="10786" class="javax.swing.JLabel" binding="LBLnombre">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="26" style="1"/>
+          <foreground color="-15257582"/>
+          <text value="Nombre:"/>
+        </properties>
+      </component>
+      <component id="48105" class="javax.swing.JLabel" binding="LBLcedula">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="26" style="1"/>
+          <foreground color="-15257582"/>
+          <text value="Cedula:"/>
+        </properties>
+      </component>
+      <component id="99aa9" class="javax.swing.JTextField" binding="TXTnombre">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1907218"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="af6e9" class="javax.swing.JTextField" binding="TXTcedula">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1907218"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fb976" class="javax.swing.JTextField" binding="TXTmonto">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1907218"/>
+        </properties>
+      </component>
+      <component id="4fc21" class="javax.swing.JLabel" binding="LBLmonto">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="26" style="1"/>
+          <foreground color="-13947600"/>
+          <text value="Monto:"/>
+        </properties>
+      </component>
+      <component id="42a12" class="javax.swing.JLabel" binding="LBLplazoindicacion">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="26" style="1"/>
+          <foreground color="-15257582"/>
+          <text value="Plazo en años"/>
+        </properties>
+      </component>
+      <component id="1b451" class="javax.swing.JTextField" binding="TXTplazo">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1907218"/>
+        </properties>
+      </component>
+      <component id="6b1f5" class="javax.swing.JLabel" binding="LBLrespuesta">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="26" style="0"/>
+          <foreground color="-15257582"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4682c" class="javax.swing.JButton" binding="BTNcalcular">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calcular"/>
+        </properties>
+      </component>
+    </children>
   </grid>
 </form>
