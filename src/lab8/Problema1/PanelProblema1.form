@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Problema1.PanelProblema1">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="lab8.Problema1.PanelProblema1">
   <grid id="27dc6" binding="panelProblema1" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="545" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -25,6 +25,7 @@
           </grid>
         </constraints>
         <properties>
+          <font name="Consolas" size="24" style="1"/>
           <text value="Ingresar una palabra"/>
         </properties>
       </component>
@@ -35,6 +36,7 @@
           </grid>
         </constraints>
         <properties>
+          <font name="Consolas" size="24" style="1"/>
           <text value="Contar las vocales"/>
         </properties>
       </component>
@@ -54,7 +56,9 @@
                 <preferred-size width="150" height="50"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <font name="Consolas" size="24" style="1"/>
+            </properties>
           </component>
           <hspacer id="fcf04">
             <constraints>

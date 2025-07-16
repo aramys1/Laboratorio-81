@@ -1,7 +1,7 @@
 package lab8;
 
-import Problema1.PanelProblema1;
-import Problema3.PanelProblema3;
+import lab8.Problema1.PanelProblema1;
+import lab8.Problema3.PanelProblema3;
 import lab8.Problema2.PanelPalindromos;
 
 import javax.swing.*;

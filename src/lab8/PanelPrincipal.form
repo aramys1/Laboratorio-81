@@ -25,7 +25,7 @@
         <properties>
           <background color="-12159560"/>
           <font name="Consolas" size="24" style="1"/>
-          <text value="p1"/>
+          <text value="Calcular cantidad de vocales en una palabra"/>
         </properties>
       </component>
       <component id="e10b7" class="javax.swing.JButton" binding="BTNproblema3">

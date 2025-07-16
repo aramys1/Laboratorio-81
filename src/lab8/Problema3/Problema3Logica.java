@@ -1,4 +1,4 @@
-package Problema3;
+package lab8.Problema3;
 
 public class Problema3Logica {
     double montoAcumulado = 0;

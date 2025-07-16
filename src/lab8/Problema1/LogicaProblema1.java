@@ -1,4 +1,4 @@
-package Problema1;
+package lab8.Problema1;
 
 import javax.swing.DefaultListModel;
 
