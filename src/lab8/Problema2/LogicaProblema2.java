@@ -16,7 +16,10 @@ public class LogicaProblema2 {
         String str = String.valueOf(numero);
         int izquierda = 0, derecha = str.length() - 1;
         while (izquierda < derecha) {
-            if (str.charAt(izquierda++) != str.charAt(derecha--)) return false;
+            if (str.charAt(izquierda++) != str.charAt(derecha--)) {
+                return false;
+            }
+
         }
         return true;
     }

@@ -42,7 +42,6 @@ public class PanelPalindromos {
     }
 
     public JPanel getPanel() {
-        System.out.println("¿PanelPrincipal es null? " + (PanelPrincipal == null));
         return PanelPrincipal;
     }
 
