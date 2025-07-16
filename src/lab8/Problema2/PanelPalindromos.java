@@ -37,7 +37,12 @@ public class PanelPalindromos {
         }
     }
 
-    public JPanel PanelPrincipal() {
+    public JPanel getPanel() {
+        System.out.println("¿PanelPrincipal es null? " + (PanelPrincipal == null));
         return PanelPrincipal;
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
