@@ -3,8 +3,6 @@ package lab8.Problema2;
 import lab8.PanelPrincipal;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class PanelPalindromos {
     private JTextField txtInicio;
